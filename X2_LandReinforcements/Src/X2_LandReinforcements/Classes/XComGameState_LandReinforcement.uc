@@ -83,8 +83,6 @@ function bool Initialize(out XComGameState_AIReinforcementSpawner AISpawner)
 		ParcelDirection = ChosenSpawn.DirectionVector;
 		PropsToHide = ChosenSpawn.Props;
 
-		LoadCinematicMaps();
-
 		`Log("Successfully switched ATT to a land transport",, 'X2_LandReinforcements');
 		return true;
 	}
@@ -165,7 +163,7 @@ private function SpawnData GetRandomSpawnpoint(SpawnData ChosenPCP, array<SpawnD
 }
 
 // This function loads the cinematic maps, duh
-private function LoadCinematicMaps()
+function LoadCinematicMaps()
 {
 	`MAPS.AddStreamingMap("CIN_LandReinforcements",,,false).bForceNoDupe = true;
 }

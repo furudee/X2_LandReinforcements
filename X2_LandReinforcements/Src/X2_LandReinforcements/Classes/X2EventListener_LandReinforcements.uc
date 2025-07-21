@@ -107,6 +107,7 @@ static protected function EventListenerReturn OnSpawnReinforcementsComplete(Obje
 			if(LandRNFState.AssociatedSpawner.ObjectID == AISpawner.ObjectID)
 			{
 				LandRNFState.OverrideVisualization(PendingGameState, AISpawner);
+				LandRNFState.LoadCinematicMaps();
 				break;
 			}
 		}
