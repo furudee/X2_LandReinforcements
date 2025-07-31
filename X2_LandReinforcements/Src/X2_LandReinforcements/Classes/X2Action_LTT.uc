@@ -53,7 +53,7 @@ function FindLTTMatinee()
 
 	DesiredMatineePrefix = LandMatineeCommentPrefix;
 
-	if(`SYNC_RAND(250) == 0)
+	if(`SYNC_RAND(350) == 0)
 	{
 		DesiredMatineePrefix = FunMatineePrefix;
 		`Log("Time for Fun",, 'X2_LandReinforcements');

@@ -56,6 +56,8 @@ defaultproperties
 	ObjName="Is Unit In Matinee"
 	ObjCategory="Furu"
 
+	bConvertedForReplaySystem=true
+	bCanBeUsedForGameplaySequence=true
 	bAutoActivateOutputLinks=false
 
 	OutputLinks(0)=(LinkDesc="Yes")

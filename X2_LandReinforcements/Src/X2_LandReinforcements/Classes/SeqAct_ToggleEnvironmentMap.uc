@@ -67,6 +67,9 @@ defaultproperties
 	ObjCategory="Furu"
 	ObjName="Toggle Environment Map"
 
+	bConvertedForReplaySystem=true
+	bCanBeUsedForGameplaySequence=true
+
 	InputLinks(0)=(LinkDesc="Hide")
 	InputLinks(1)=(LinkDesc="UnHide")
 }

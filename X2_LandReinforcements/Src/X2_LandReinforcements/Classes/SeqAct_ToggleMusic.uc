@@ -27,6 +27,9 @@ defaultproperties
 	ObjCategory="Furu"
 	ObjName="Toggle Music"
 
+	bConvertedForReplaySystem=true
+	bCanBeUsedForGameplaySequence=true
+
 	InputLinks(0)=(LinkDesc="Mute")
 	InputLinks(1)=(LinkDesc="UnMute")
 }
